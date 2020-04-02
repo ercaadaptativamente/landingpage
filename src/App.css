@@ -22,6 +22,32 @@ nav {
 }
 
 #burgerMenu {
-  padding: 10px;
   height: 40px;
+}
+
+section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 58%;
+  width: 100%;
+}
+
+#the-header {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(#fff8fe,white), 
+  url('https://www.adaptativamente.cl/img/estudiantes/img-header.png');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-blend-mode: soft-light;
+}
+
+h3 {
+  padding: 10px;
+}
+
+Button {
+  height: 50px !important;
+  width: 100px !important;
 }
