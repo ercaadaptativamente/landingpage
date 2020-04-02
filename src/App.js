@@ -11,8 +11,19 @@ function App() {
         <FontAwesomeIcon id="burgerMenu" icon={faBars} />
       </nav>
       <section id="the-header">
-        <h3>La plataforma matemática que tu hijo necesita</h3>
+      <div id="header-title">
+        <h2>La plataforma matemática que tu hijo necesita</h2>
+      </div>
       </section>
+      <div class="header-sub">
+        <h4>Educación de calidad</h4>
+      </div>
+      <div class="header-sub">
+        <h4>Tu hijo gana autonomía</h4>
+      </div>
+      <div class="header-sub">
+        <h4>Observa sus avances</h4>
+      </div>
     </div>
   );
 }
